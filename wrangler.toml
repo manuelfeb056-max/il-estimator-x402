@@ -1,0 +1,6 @@
+name = "il-estimator-x402"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+
+[vars]
+SOLANA_RPC_URL = "https://api.mainnet-beta.solana.com"

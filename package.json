@@ -1,0 +1,30 @@
+{
+  "name": "il-estimator-x402",
+  "description": "x402 agent: LP Impermanent Loss Estimator for major AMMs — Daydreams AI bounty #7",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "vitest run",
+    "test:backtest": "vitest run test/backtest.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelfeb056-max/il-estimator-x402.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelfeb056-max/il-estimator-x402/issues"
+  },
+  "homepage": "https://github.com/manuelfeb056-max/il-estimator-x402#readme",
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.22.0",
+    "@types/node": "^26.6.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1",
+    "wrangler": "^4.135.0"
+  }
+}
